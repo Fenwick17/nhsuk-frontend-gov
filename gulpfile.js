@@ -23,8 +23,6 @@ function cleanDist() {
  * CSS tasks
  */
 
-sass.compiler = require('sass')
-
 /* Build the CSS from source */
 function compileCSS() {
   return gulp

@@ -1,3 +1,5 @@
+import GOVUKFrontend from 'govuk-frontend/govuk/all'
+
 // Components
 import Button from './components/button/button'
 import CharacterCount from './components/character-count/character-count'
@@ -10,6 +12,8 @@ import SkipLink from './components/skip-link/skip-link'
 import Tabs from './components/tabs/tabs'
 
 import './polyfills'
+
+GOVUKFrontend.initAll()
 
 // Initialize components
 document.addEventListener('DOMContentLoaded', () => {
