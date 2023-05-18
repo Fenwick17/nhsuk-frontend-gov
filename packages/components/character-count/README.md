@@ -15,8 +15,8 @@ Find out more about the character component and when to use it in the [NHS digit
 ```html
 <div class="nhsuk-character-count" data-module="nhsuk-character-count" data-maxlength="200">
   <div class="nhsuk-form-group">
-    <label class="nhsuk-label" for="more-detail">Can you provide more detail?</label>
-    <div class="nhsuk-hint" id="more-detail-hint">
+    <label class="govuk-label" for="more-detail">Can you provide more detail?</label>
+    <div class="govuk-hint" id="more-detail-hint">
       Don&#39;t include personal or financial information, eg your National Insurance number or credit card details.
     </div>
     <textarea
@@ -27,7 +27,7 @@ Find out more about the character component and when to use it in the [NHS digit
       aria-describedby="more-detail-hint"></textarea>
   </div>
 
-  <div class="nhsuk-hint nhsuk-character-count__message" id="more-detail-info">You can enter up to 200 characters</div>
+  <div class="govuk-hint nhsuk-character-count__message" id="more-detail-info">You can enter up to 200 characters</div>
 </div>
 ```
 
@@ -60,8 +60,8 @@ Find out more about the character component and when to use it in the [NHS digit
 ```html
 <div class="nhsuk-character-count" data-module="nhsuk-character-count" data-maxlength="200" data-threshold="75">
   <div class="nhsuk-form-group">
-    <label class="nhsuk-label" for="more-detail">Can you provide more detail?</label>
-    <div class="nhsuk-hint" id="more-detail-hint">
+    <label class="govuk-label" for="more-detail">Can you provide more detail?</label>
+    <div class="govuk-hint" id="more-detail-hint">
       Don&#39;t include personal or financial information, eg your National Insurance number or credit card details.
     </div>
     <textarea
@@ -72,7 +72,7 @@ Find out more about the character component and when to use it in the [NHS digit
       aria-describedby="more-detail-hint"></textarea>
   </div>
 
-  <div class="nhsuk-hint nhsuk-character-count__message" id="more-detail-info">You can enter up to 200 characters</div>
+  <div class="govuk-hint nhsuk-character-count__message" id="more-detail-info">You can enter up to 200 characters</div>
 </div>
 ```
 
@@ -106,8 +106,8 @@ Find out more about the character component and when to use it in the [NHS digit
 ```html
 <div class="nhsuk-character-count" data-module="nhsuk-character-count" data-maxwords="200">
   <div class="nhsuk-form-group">
-    <label class="nhsuk-label" for="more-detail">Can you provide more detail?</label>
-    <div class="nhsuk-hint" id="more-detail-hint">
+    <label class="govuk-label" for="more-detail">Can you provide more detail?</label>
+    <div class="govuk-hint" id="more-detail-hint">
       Don&#39;t include personal or financial information, eg your National Insurance number or credit card details.
     </div>
     <textarea
@@ -118,7 +118,7 @@ Find out more about the character component and when to use it in the [NHS digit
       aria-describedby="more-detail-hint"></textarea>
   </div>
 
-  <div class="nhsuk-hint nhsuk-character-count__message" id="more-detail-info">You can enter up to 200 words</div>
+  <div class="govuk-hint nhsuk-character-count__message" id="more-detail-info">You can enter up to 200 words</div>
 </div>
 ```
 

@@ -81,10 +81,10 @@ Find out more about the error summary component and when to use it in the [NHS d
 </div>
 
 <div class="nhsuk-form-group nhsuk-form-group--error">
-  <label class="nhsuk-label" for="input-with-error-message">
+  <label class="govuk-label" for="input-with-error-message">
     National Insurance number
   </label>
-  <div class="nhsuk-hint" id="input-with-error-message-hint">
+  <div class="govuk-hint" id="input-with-error-message-hint">
     Clicking an error summary link should scroll the top of this input&#39;s
     label into view.
   </div>
@@ -175,7 +175,7 @@ Find out more about the error summary component and when to use it in the [NHS d
       Have you changed your name?
     </legend>
 
-    <div class="nhsuk-hint" id="example-hint">
+    <div class="govuk-hint" id="example-hint">
       Clicking an error summary link should scroll the top of this radio
       fieldset into view.
     </div>
@@ -194,7 +194,7 @@ Find out more about the error summary component and when to use it in the [NHS d
           type="radio"
           value="yes"
         />
-        <label class="nhsuk-label nhsuk-radios__label" for="example-1">
+        <label class="govuk-label nhsuk-radios__label" for="example-1">
           Yes
         </label>
       </div>
@@ -207,7 +207,7 @@ Find out more about the error summary component and when to use it in the [NHS d
           type="radio"
           value="no"
         />
-        <label class="nhsuk-label nhsuk-radios__label" for="example-2">
+        <label class="govuk-label nhsuk-radios__label" for="example-2">
           No
         </label>
       </div>
