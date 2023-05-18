@@ -21,22 +21,22 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <div class="govuk-hint" id="nationality-hint">
     If you have more than 1 nationality, select all options that are relevant to you.
     </div>
-    <div class="nhsuk-checkboxes">
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="nationality-1" name="nationality" type="checkbox" value="british">
-        <label class="govuk-label nhsuk-checkboxes__label" for="nationality-1">
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-1" name="nationality" type="checkbox" value="british">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-1">
         British
         </label>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
-        <label class="govuk-label nhsuk-checkboxes__label" for="nationality-2">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
         Irish
         </label>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
-        <label class="govuk-label nhsuk-checkboxes__label" for="nationality-3">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
         citizen of another country
         </label>
       </div>
@@ -94,22 +94,22 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
         How do you want to sign in?
       </h1>
     </legend>
-    <div class="nhsuk-checkboxes">
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="government-gateway" name="gateway" type="checkbox" value="gov-gateway" aria-describedby="government-gateway-item-hint">
-        <label class="govuk-label nhsuk-checkboxes__label" for="government-gateway">
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="government-gateway" name="gateway" type="checkbox" value="gov-gateway" aria-describedby="government-gateway-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="government-gateway">
         Sign in with Government Gateway
         </label>
-        <div class="govuk-hint nhsuk-checkboxes__hint" id="government-gateway-item-hint">
+        <div class="govuk-hint govuk-checkboxes__hint" id="government-gateway-item-hint">
         You’ll have a user ID if you’ve registered for Self Assessment or filed a tax return online before.
         </div>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="nhsuk-login" name="verify" type="checkbox" value="nhsuk-verify" aria-describedby="nhsuk-login-item-hint">
-        <label class="govuk-label nhsuk-checkboxes__label" for="nhsuk-login">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nhsuk-login" name="verify" type="checkbox" value="nhsuk-verify" aria-describedby="nhsuk-login-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nhsuk-login">
         Sign in with NHS.UK login
         </label>
-        <div class="govuk-hint nhsuk-checkboxes__hint" id="nhsuk-login-item-hint">
+        <div class="govuk-hint govuk-checkboxes__hint" id="nhsuk-login-item-hint">
         You’ll have an account if you’ve already proved your identity with either Barclays, CitizenSafe, Digidentity, Experian, Post Office, Royal Mail or SecureIdentity.
         </div>
       </div>
@@ -163,22 +163,22 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group">
-  <div class="nhsuk-checkboxes">
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="colours-1" name="colours" type="checkbox" value="red">
-      <label class="govuk-label nhsuk-checkboxes__label" for="colours-1">
+  <div class="govuk-checkboxes">
+    <div class="govuk-checkboxes__item">
+      <input class="govuk-checkboxes__input" id="colours-1" name="colours" type="checkbox" value="red">
+      <label class="govuk-label govuk-checkboxes__label" for="colours-1">
       Red
       </label>
     </div>
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="colours-2" name="colours" type="checkbox" value="green">
-      <label class="govuk-label nhsuk-checkboxes__label" for="colours-2">
+    <div class="govuk-checkboxes__item">
+      <input class="govuk-checkboxes__input" id="colours-2" name="colours" type="checkbox" value="green">
+      <label class="govuk-label govuk-checkboxes__label" for="colours-2">
       Green
       </label>
     </div>
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="colours-3" name="colours" type="checkbox" value="blue" disabled>
-      <label class="govuk-label nhsuk-checkboxes__label" for="colours-3">
+    <div class="govuk-checkboxes__item">
+      <input class="govuk-checkboxes__input" id="colours-3" name="colours" type="checkbox" value="blue" disabled>
+      <label class="govuk-label govuk-checkboxes__label" for="colours-3">
       Blue
       </label>
     </div>
@@ -230,22 +230,22 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <div class="govuk-hint" id="waste-hint">
     Select all that apply
     </div>
-    <div class="nhsuk-checkboxes">
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="animal">
-        <label class="govuk-label nhsuk-checkboxes__label" for="waste-1">
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="animal">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
         Waste from animal carcasses
         </label>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
-        <label class="govuk-label nhsuk-checkboxes__label" for="waste-2">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-2">
         Waste from mines or quarries
         </label>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
-        <label class="govuk-label nhsuk-checkboxes__label" for="waste-3">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
         Farm or agricultural waste
         </label>
       </div>
@@ -305,22 +305,22 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <span id="waste-error" class="govuk-error-message">
     Please select an option
     </span>
-    <div class="nhsuk-checkboxes">
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="animal">
-        <label class="govuk-label nhsuk-checkboxes__label" for="waste-1">
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="animal">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
         Waste from animal carcasses
         </label>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
-        <label class="govuk-label nhsuk-checkboxes__label" for="waste-2">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-2">
         Waste from mines or quarries
         </label>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
-        <label class="govuk-label nhsuk-checkboxes__label" for="waste-3">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
         Farm or agricultural waste
         </label>
       </div>
@@ -380,14 +380,14 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <div class="govuk-hint" id="contact-hint">
       Select all options that are relevant to you.
     </div>
-    <div class="nhsuk-checkboxes nhsuk-checkboxes--conditional">
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="contact-1" name="contact" type="checkbox" value="email" aria-controls="conditional-contact-1" aria-expanded="false">
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-1">
+    <div class="govuk-checkboxes govuk-checkboxes--conditional">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="contact-1" name="contact" type="checkbox" value="email" aria-controls="conditional-contact-1" aria-expanded="false">
+        <label class="govuk-label govuk-checkboxes__label" for="contact-1">
           Email
         </label>
       </div>
-      <div class="nhsuk-checkboxes__conditional nhsuk-checkboxes__conditional--hidden" id="conditional-contact-1">
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-contact-1">
         <div class="govuk-form-group">
           <label class="govuk-label" for="email">
             Email address
@@ -395,13 +395,13 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
           <input class="govuk-input nhsuk-u-width-two-thirds" id="email" name="email" type="text">
         </div>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="contact-2" name="contact" type="checkbox" value="phone" aria-controls="conditional-contact-2" aria-expanded="false">
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-2">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="contact-2" name="contact" type="checkbox" value="phone" aria-controls="conditional-contact-2" aria-expanded="false">
+        <label class="govuk-label govuk-checkboxes__label" for="contact-2">
           Phone
         </label>
       </div>
-      <div class="nhsuk-checkboxes__conditional nhsuk-checkboxes__conditional--hidden" id="conditional-contact-2">
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-contact-2">
         <div class="govuk-form-group">
           <label class="govuk-label" for="phone">
             Phone number
@@ -409,13 +409,13 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
           <input class="govuk-input nhsuk-u-width-two-thirds" id="phone" name="phone" type="text">
         </div>
       </div>
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="contact-3" name="contact" type="checkbox" value="text" aria-controls="conditional-contact-3" aria-expanded="false">
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-3">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="contact-3" name="contact" type="checkbox" value="text" aria-controls="conditional-contact-3" aria-expanded="false">
+        <label class="govuk-label govuk-checkboxes__label" for="contact-3">
           Text message
         </label>
       </div>
-      <div class="nhsuk-checkboxes__conditional nhsuk-checkboxes__conditional--hidden" id="conditional-contact-3">
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-contact-3">
         <div class="govuk-form-group">
           <label class="govuk-label" for="mobile">
             Mobile phone number
@@ -527,49 +527,49 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
       Select all options that are relevant to you.
     </div>
 
-    <div class="nhsuk-checkboxes nhsuk-checkboxes--conditional">
-      <div class="nhsuk-checkboxes__item">
+    <div class="govuk-checkboxes govuk-checkboxes--conditional">
+      <div class="govuk-checkboxes__item">
         <input
-          class="nhsuk-checkboxes__input" id="contact-1" name="email" type="checkbox" value="email" data-checkbox-exclusive-group="communication-preferences" aria-controls="conditional-contact-1" aria-expanded="false" />
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-1">Email</label>
+          class="govuk-checkboxes__input" id="contact-1" name="email" type="checkbox" value="email" data-checkbox-exclusive-group="communication-preferences" aria-controls="conditional-contact-1" aria-expanded="false" />
+        <label class="govuk-label govuk-checkboxes__label" for="contact-1">Email</label>
       </div>
 
-      <div class="nhsuk-checkboxes__conditional nhsuk-checkboxes__conditional--hidden" id="conditional-contact-1">
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-contact-1">
         <div class="govuk-form-group">
           <label class="govuk-label" for="email"> Email address </label>
           <input class="govuk-input nhsuk-u-width-two-thirds" id="email" name="email" type="text" />
         </div>
       </div>
 
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="contact-2" name="phone" type="checkbox" value="phone" data-checkbox-exclusive-group="communication-preferences" aria-controls="conditional-contact-2" aria-expanded="false" />
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-2">Phone</label>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="contact-2" name="phone" type="checkbox" value="phone" data-checkbox-exclusive-group="communication-preferences" aria-controls="conditional-contact-2" aria-expanded="false" />
+        <label class="govuk-label govuk-checkboxes__label" for="contact-2">Phone</label>
       </div>
 
-      <div class="nhsuk-checkboxes__conditional nhsuk-checkboxes__conditional--hidden" id="conditional-contact-2">
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-contact-2">
         <div class="govuk-form-group">
           <label class="govuk-label" for="phone"> Phone number </label>
           <input class="govuk-input nhsuk-u-width-two-thirds" id="phone" name="phone" type="text" />
         </div>
       </div>
 
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="contact-3" name="text" type="checkbox" value="text" data-checkbox-exclusive-group="communication-preferences" aria-controls="conditional-contact-3" aria-expanded="false" />
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-3">Text message</label>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="contact-3" name="text" type="checkbox" value="text" data-checkbox-exclusive-group="communication-preferences" aria-controls="conditional-contact-3" aria-expanded="false" />
+        <label class="govuk-label govuk-checkboxes__label" for="contact-3">Text message</label>
       </div>
 
-      <div class="nhsuk-checkboxes__conditional nhsuk-checkboxes__conditional--hidden" id="conditional-contact-3">
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-contact-3">
         <div class="govuk-form-group">
           <label class="govuk-label" for="mobile"> Mobile phone number </label>
           <input class="govuk-input nhsuk-u-width-two-thirds" id="mobile" name="mobile" type="text" />
         </div>
       </div>
 
-      <div class="nhsuk-checkboxes__divider">or</div>
+      <div class="govuk-checkboxes__divider">or</div>
 
-      <div class="nhsuk-checkboxes__item">
-        <input class="nhsuk-checkboxes__input" id="contact-5" name="none" type="checkbox" value="none" data-checkbox-exclusive data-checkbox-exclusive-group="communication-preferences" />
-        <label class="govuk-label nhsuk-checkboxes__label" for="contact-5">None of the above</label>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="contact-5" name="none" type="checkbox" value="none" data-checkbox-exclusive data-checkbox-exclusive-group="communication-preferences" />
+        <label class="govuk-label govuk-checkboxes__label" for="contact-5">None of the above</label>
       </div>
     </div>
   </fieldset>

@@ -6,7 +6,7 @@ import { toggleConditionalInput } from '../../common'
  */
 const syncAllConditionalReveals = function syncAllConditionalReveals(input) {
   const allInputsInForm = input.form.querySelectorAll('input[type="checkbox"]')
-  allInputsInForm.forEach((item) => toggleConditionalInput(item, 'nhsuk-checkboxes__conditional--hidden'))
+  allInputsInForm.forEach((item) => toggleConditionalInput(item, 'govuk-checkboxes__conditional--hidden'))
 }
 
 /**
@@ -56,7 +56,7 @@ const unCheckExclusiveInputs = function unCheckExclusiveInputs(input) {
 
 export default () => {
   // Checkbox input DOMElements inside a conditional form group
-  const checkboxInputs = document.querySelectorAll('.nhsuk-checkboxes .nhsuk-checkboxes__input')
+  const checkboxInputs = document.querySelectorAll('.govuk-checkboxes .govuk-checkboxes__input')
 
   /**
    * Toggle classes and attributes
@@ -64,7 +64,7 @@ export default () => {
    */
   const handleClick = (event) => {
     // Toggle conditional content based on checked state
-    toggleConditionalInput(event.target, 'nhsuk-checkboxes__conditional--hidden')
+    toggleConditionalInput(event.target, 'govuk-checkboxes__conditional--hidden')
 
     if (!event.target.checked) {
       return

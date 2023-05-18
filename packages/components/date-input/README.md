@@ -23,29 +23,29 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
     <div class="govuk-hint" id="dob-hint">
     For example, 31 3 1980
     </div>
-    <div class="nhsuk-date-input" id="dob">
-      <div class="nhsuk-date-input__item">
+    <div class="govuk-date-input" id="dob">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-day">
+          <label class="govuk-label govuk-date-input__label" for="dob-day">
           Day
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-month">
+          <label class="govuk-label govuk-date-input__label" for="dob-month">
           Month
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-year">
+          <label class="govuk-label govuk-date-input__label" for="dob-year">
           Year
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
     </div>
@@ -107,29 +107,29 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
     <div class="govuk-hint" id="dob-with-autocomplete-attribute-hint">
     For example, 31 3 1980
     </div>
-    <div class="nhsuk-date-input" id="dob-with-autocomplete-attribute">
-      <div class="nhsuk-date-input__item">
+    <div class="govuk-date-input" id="dob-with-autocomplete-attribute">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-with-autocomplete-attribute-day">
+          <label class="govuk-label govuk-date-input__label" for="dob-with-autocomplete-attribute-day">
           Day
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2" id="dob-with-autocomplete-attribute-day" name="dob-with-autocomplete-day" inputmode="numeric" type="text" autocomplete="bday-day" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-with-autocomplete-attribute-day" name="dob-with-autocomplete-day" inputmode="numeric" type="text" autocomplete="bday-day" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-with-autocomplete-attribute-month">
+          <label class="govuk-label govuk-date-input__label" for="dob-with-autocomplete-attribute-month">
           Month
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2" id="dob-with-autocomplete-attribute-month" name="dob-with-autocomplete-month" inputmode="numeric" type="text" autocomplete="bday-month" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-with-autocomplete-attribute-month" name="dob-with-autocomplete-month" inputmode="numeric" type="text" autocomplete="bday-month" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-with-autocomplete-attribute-year">
+          <label class="govuk-label govuk-date-input__label" for="dob-with-autocomplete-attribute-year">
           Year
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-4" id="dob-with-autocomplete-attribute-year" name="dob-with-autocomplete-year" inputmode="numeric" type="text" autocomplete="bday-year" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-with-autocomplete-attribute-year" name="dob-with-autocomplete-year" inputmode="numeric" type="text" autocomplete="bday-year" pattern="[0-9]*">
         </div>
       </div>
     </div>
@@ -193,29 +193,29 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
     <span id="dob-errors-error" class="govuk-error-message">
     Error message goes here
     </span>
-    <div class="nhsuk-date-input" id="dob-errors">
-      <div class="nhsuk-date-input__item">
+    <div class="govuk-date-input" id="dob-errors">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-errors-day">
+          <label class="govuk-label govuk-date-input__label" for="dob-errors-day">
           Day
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2 govuk-input--error" id="dob-errors-day" name="day" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2 govuk-input--error" id="dob-errors-day" name="day" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-errors-month">
+          <label class="govuk-label govuk-date-input__label" for="dob-errors-month">
           Month
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2 govuk-input--error" id="dob-errors-month" name="month" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2 govuk-input--error" id="dob-errors-month" name="month" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-errors-year">
+          <label class="govuk-label govuk-date-input__label" for="dob-errors-year">
           Year
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-4 govuk-input--error" id="dob-errors-year" name="year" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4 govuk-input--error" id="dob-errors-year" name="year" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
     </div>
@@ -278,29 +278,29 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
     <span id="dob-day-error-error" class="govuk-error-message">
     Error message goes here
     </span>
-    <div class="nhsuk-date-input" id="dob-day-error">
-      <div class="nhsuk-date-input__item">
+    <div class="govuk-date-input" id="dob-day-error">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-day-error-day">
+          <label class="govuk-label govuk-date-input__label" for="dob-day-error-day">
           Day
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2 govuk-input--error" id="dob-day-error-day" name="dob-day-error-day" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2 govuk-input--error" id="dob-day-error-day" name="dob-day-error-day" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-day-error-month">
+          <label class="govuk-label govuk-date-input__label" for="dob-day-error-month">
           Month
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-2" id="dob-day-error-month" name="dob-day-error-month" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day-error-month" name="dob-day-error-month" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
-      <div class="nhsuk-date-input__item">
+      <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label nhsuk-date-input__label" for="dob-day-error-year">
+          <label class="govuk-label govuk-date-input__label" for="dob-day-error-year">
           Year
           </label>
-          <input class="govuk-input nhsuk-date-input__input govuk-input--width-4" id="dob-day-error-year" name="dob-day-error-year" inputmode="numeric" type="text" pattern="[0-9]*">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-day-error-year" name="dob-day-error-year" inputmode="numeric" type="text" pattern="[0-9]*">
         </div>
       </div>
     </div>

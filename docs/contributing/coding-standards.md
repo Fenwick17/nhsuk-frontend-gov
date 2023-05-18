@@ -143,7 +143,7 @@ div#nhsuk-ers {
 Bad:
 
 ```scss
-.nhsuk-checkboxes__conditional {
+.govuk-checkboxes__conditional {
   ...
   .js-enabled &--hidden {
     ...
@@ -155,11 +155,11 @@ Bad:
 Good:
 
 ```scss
-.nhsuk-checkboxes__conditional {
+.govuk-checkboxes__conditional {
   ...
 }
 
-.js-enabled .nhsuk-checkboxes__conditional--hidden {
+.js-enabled .govuk-checkboxes__conditional--hidden {
   ...
 }
 ```
