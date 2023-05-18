@@ -88,7 +88,7 @@ Find out more about the error summary component and when to use it in the [NHS d
     Clicking an error summary link should scroll the top of this input&#39;s
     label into view.
   </div>
-  <span class="nhsuk-error-message" id="input-with-error-message-error">
+  <span class="govuk-error-message" id="input-with-error-message-error">
     <span class="nhsuk-u-visually-hidden">Error:</span> Error message goes here
   </span>
   <input
@@ -180,7 +180,7 @@ Find out more about the error summary component and when to use it in the [NHS d
       fieldset into view.
     </div>
 
-    <span class="nhsuk-error-message" id="example-error">
+    <span class="govuk-error-message" id="example-error">
       <span class="nhsuk-u-visually-hidden">Error:</span> Please select an
       option
     </span>

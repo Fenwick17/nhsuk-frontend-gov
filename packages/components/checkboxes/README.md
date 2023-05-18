@@ -302,7 +302,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <legend class="nhsuk-fieldset__legend">
       Which types of waste do you transport regularly?
     </legend>
-    <span id="waste-error" class="nhsuk-error-message">
+    <span id="waste-error" class="govuk-error-message">
     Please select an option
     </span>
     <div class="nhsuk-checkboxes">

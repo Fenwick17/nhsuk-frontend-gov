@@ -159,7 +159,7 @@ describe('Character count', () => {
 
         it('adds error styles to the count message', async () => {
           const messageClasses = await page.$eval('.nhsuk-character-count__status', (el) => el.className)
-          expect(messageClasses).toContain('nhsuk-error-message')
+          expect(messageClasses).toContain('govuk-error-message')
         })
       })
 
@@ -186,7 +186,7 @@ describe('Character count', () => {
 
         it('adds error styles to the count message', async () => {
           const messageClasses = await page.$eval('.nhsuk-character-count__status', (el) => el.className)
-          expect(messageClasses).toContain('nhsuk-error-message')
+          expect(messageClasses).toContain('govuk-error-message')
         })
       })
 
@@ -332,7 +332,7 @@ describe('Character count', () => {
 
         it('adds error styles to the count message', async () => {
           const messageClasses = await page.$eval('.nhsuk-character-count__status', (el) => el.className)
-          expect(messageClasses).toContain('nhsuk-error-message')
+          expect(messageClasses).toContain('govuk-error-message')
         })
       })
     })

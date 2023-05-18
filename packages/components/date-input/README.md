@@ -190,7 +190,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
     <div class="govuk-hint" id="dob-errors-hint">
     For example, 31 3 1980
     </div>
-    <span id="dob-errors-error" class="nhsuk-error-message">
+    <span id="dob-errors-error" class="govuk-error-message">
     Error message goes here
     </span>
     <div class="nhsuk-date-input" id="dob-errors">
@@ -275,7 +275,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
     <div class="govuk-hint" id="dob-day-error-hint">
     For example, 31 3 1980
     </div>
-    <span id="dob-day-error-error" class="nhsuk-error-message">
+    <span id="dob-day-error-error" class="govuk-error-message">
     Error message goes here
     </span>
     <div class="nhsuk-date-input" id="dob-day-error">

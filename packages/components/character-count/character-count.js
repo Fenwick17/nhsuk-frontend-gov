@@ -153,10 +153,10 @@ class CharacterCount {
     if (remainingNumber < 0) {
       $textarea.classList.add('nhsuk-textarea--error')
       $visibleCountMessage.classList.remove('govuk-hint')
-      $visibleCountMessage.classList.add('nhsuk-error-message')
+      $visibleCountMessage.classList.add('govuk-error-message')
     } else {
       $textarea.classList.remove('nhsuk-textarea--error')
-      $visibleCountMessage.classList.remove('nhsuk-error-message')
+      $visibleCountMessage.classList.remove('govuk-error-message')
       $visibleCountMessage.classList.add('govuk-hint')
     }
 

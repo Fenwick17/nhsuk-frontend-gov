@@ -124,7 +124,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
   <div class="govuk-hint" id="input-with-error-message-hint">
   It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
   </div>
-  <span id="input-with-error-message-error" class="nhsuk-error-message">
+  <span id="input-with-error-message-error" class="govuk-error-message">
   Error message goes here
   </span>
   <input class="nhsuk-input nhsuk-input--error" id="input-with-error-message" name="test-name-3" type="text" aria-describedby="input-with-error-message-hint input-with-error-message-error">

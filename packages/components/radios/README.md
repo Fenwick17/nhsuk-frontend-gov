@@ -420,7 +420,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
     <div class="govuk-hint" id="example-hint">
     This includes changing your last name or spelling your name differently.
     </div>
-    <span id="example-error" class="nhsuk-error-message">
+    <span id="example-error" class="govuk-error-message">
     Please select an option
     </span>
     <div class="nhsuk-radios">

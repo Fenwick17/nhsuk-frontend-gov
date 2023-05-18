@@ -71,7 +71,7 @@ Find out more about the select component and when to use it in the [NHS digital 
   <div class="govuk-hint" id="select-2-hint">
   Hint text goes here
   </div>
-  <span id="select-2-error" class="nhsuk-error-message">
+  <span id="select-2-error" class="govuk-error-message">
   Error message goes here
   </span>
   <select class="nhsuk-select nhsuk-select--error" id="select-2" name="select-2" aria-describedby="select-2-hint select-2-error">
