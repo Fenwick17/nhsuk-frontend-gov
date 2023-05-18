@@ -14,7 +14,7 @@
 {%- if params.organisation and params.organisation.name %} nhsuk-header--organisation{% endif %}
 {%- if params.classes %} {{ params.classes }}{% endif %}" role="banner"
 {%- for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo {%- if showNav == "false" and showSearch == "false"%} nhsuk-header__logo--only{%- endif %}">
       {%- if params.organisation %}
       <a class="nhsuk-header__link" href="{% if params.homeHref %}{{ params.homeHref }}{% else %}/{% endif %}" aria-label="{{ params.organisation.name }} {{ params.organisation.split }} {{ params.organisation.descriptor }} homepage">
@@ -90,7 +90,7 @@
     </div>{# close nhsuk-header__container #}
 
     <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-      <div class="nhsuk-width-container">
+      <div class="govuk-width-container">
         <p class="nhsuk-header__navigation-title"><span id="label-navigation">Menu</span>
           <button class="nhsuk-header__navigation-close" id="close-menu">
             <svg class="nhsuk-icon nhsuk-icon__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="27" height="27">
@@ -171,7 +171,7 @@
     </div>{# close nhsuk-header__container #}
 
     <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-      <div class="nhsuk-width-container">
+      <div class="govuk-width-container">
         <p class="nhsuk-header__navigation-title"><span id="label-navigation">Menu</span>
           <button class="nhsuk-header__navigation-close" id="close-menu">
             <svg class="nhsuk-icon nhsuk-icon__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="27" height="27">

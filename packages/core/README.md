@@ -9,8 +9,8 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### Fixed-width container
 
 ```html
-<div class="nhsuk-width-container">
-  <main class="nhsuk-main-wrapper" id="maincontent">
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper" id="maincontent">
     <!-- Grid items -->
   </main>
 </div>
@@ -19,8 +19,8 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### Fluid-width container
 
 ```html
-<div class="nhsuk-width-container-fluid">
-  <main class="nhsuk-main-wrapper" id="maincontent">
+<div class="govuk-width-container-fluid">
+  <main class="govuk-main-wrapper" id="maincontent">
     <!-- Grid items -->
   </main>
 </div>
@@ -31,8 +31,8 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### Full width
 
 ```html
-<div class="nhsuk-grid-row">
-  <div class="nhsuk-grid-column-full">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
     <!-- Component -->
   </div>
 </div>
@@ -41,7 +41,7 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### Three-quarters
 
 ```html
-<div class="nhsuk-grid-row">
+<div class="govuk-grid-row">
   <div class="nhsuk-grid-column-three-quarters">
     <!-- Component -->
   </div>
@@ -51,7 +51,7 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### One-half
 
 ```html
-<div class="nhsuk-grid-row">
+<div class="govuk-grid-row">
   <div class="nhsuk-grid-column-one-half">
     <!-- Component -->
   </div>
@@ -61,8 +61,8 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### Two-thirds
 
 ```html
-<div class="nhsuk-grid-row">
-  <div class="nhsuk-grid-column-two-thirds">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
     <!-- Component -->
   </div>
 </div>
@@ -71,8 +71,8 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### One-third
 
 ```html
-<div class="nhsuk-grid-row">
-  <div class="nhsuk-grid-column-one-third">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third">
     <!-- Component -->
   </div>
 </div>
@@ -81,7 +81,7 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### One-quarter
 
 ```html
-<div class="nhsuk-grid-row">
+<div class="govuk-grid-row">
   <div class="nhsuk-grid-column-one-quarter">
     <!-- Component -->
   </div>
@@ -91,10 +91,10 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 ### Nested grid items
 
 ```html
-<div class="nhsuk-grid-row">
-  <div class="nhsuk-grid-column-two-thirds">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
     <!-- Component -->
-    <div class="nhsuk-grid-row">
+    <div class="govuk-grid-row">
       <div class="nhsuk-grid-column-one-half">
         <!-- Component -->
       </div>
@@ -111,9 +111,9 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 
 ```html
 <!-- Header -->
-<div class="nhsuk-width-container">
-  <main class="nhsuk-main-wrapper" id="maincontent">
-    <div class="nhsuk-grid-row">
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper" id="maincontent">
+    <div class="govuk-grid-row">
       <div class="nhsuk-grid-column-three-quarters">
         <!-- Components -->
       </div>

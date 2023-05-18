@@ -1107,7 +1107,7 @@ The list panel component can be recreated by adding `nhsuk-list--border` to the 
 - Add transparent 1px border around promos which appears as a solid border when in Windows high contrast mode. ([PR 433](https://github.com/nhsuk/nhsuk-frontend/pull/433))
 
 - Fluid width container - Extend the page layout to include a fluid-width container, which spans the entire width of the viewport.
-  Use `.nhsuk-width-container-fluid` for a full width container. Documentation and an example of the fluid-width container can be found on the Layout page in the NHS digital service manual.
+  Use `.govuk-width-container-fluid` for a full width container. Documentation and an example of the fluid-width container can be found on the Layout page in the NHS digital service manual.
   ([Issue 416](https://github.com/nhsuk/nhsuk-frontend/issues/416))
 
 - Prefix error messages with a visually hidden "Error:", to make it clearer to

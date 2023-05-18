@@ -8,7 +8,7 @@ import Details from './components/details/details'
 import ErrorSummary from './components/error-summary/error-summary'
 import Header from './components/header/header'
 import Radios from './components/radios/radios'
-import SkipLink from './components/skip-link/skip-link'
+// import SkipLink from './components/skip-link/skip-link'
 import Tabs from './components/tabs/tabs'
 
 import './polyfills'
@@ -24,6 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
   ErrorSummary()
   Header()
   Radios()
-  SkipLink()
+  // SkipLink()
   Tabs()
 })

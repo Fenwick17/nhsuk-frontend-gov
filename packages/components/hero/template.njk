@@ -6,9 +6,9 @@
 {%- for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
 {% if params.imageURL %}<div class="nhsuk-hero__overlay">{% endif %}
 {%- if params.heading %}
-  <div class="nhsuk-width-container{% if not params.imageURL %} nhsuk-hero--border{% endif %}">
-    <div class="nhsuk-grid-row">
-      <div class="nhsuk-grid-column-two-thirds">
+  <div class="govuk-width-container{% if not params.imageURL %} nhsuk-hero--border{% endif %}">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
         <div class="{% if params.imageURL %}nhsuk-hero-content{% else %}nhsuk-hero__wrapper{% endif %}">
           <h1 {% if params.text %}class="nhsuk-u-margin-bottom-3"{% endif %}>{{ params.heading }}</h1>
           {% if params.text %}<p class="nhsuk-body-l nhsuk-u-margin-bottom-0">{{ params.text }}</p>{% endif %}

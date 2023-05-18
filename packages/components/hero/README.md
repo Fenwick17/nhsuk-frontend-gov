@@ -10,9 +10,9 @@
 
 ```html
 <section class="nhsuk-hero">
-  <div class="nhsuk-width-container nhsuk-hero--border">
-    <div class="nhsuk-grid-row">
-      <div class="nhsuk-grid-column-two-thirds">
+  <div class="govuk-width-container nhsuk-hero--border">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
         <div class="nhsuk-hero__wrapper">
           <h1 class="nhsuk-u-margin-bottom-3">We’re here for you</h1>
           <p class="nhsuk-body-l nhsuk-u-margin-bottom-0">Helping you take control of your health and wellbeing.</p>
@@ -45,9 +45,9 @@
 ```html
 <section class="nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description" style="background-image: url('https://assets.nhs.uk/prod/images/S_0818_homepage_hero_1_F0147446.width-1000.jpg');">
   <div class="nhsuk-hero__overlay">
-    <div class="nhsuk-width-container">
-      <div class="nhsuk-grid-row">
-        <div class="nhsuk-grid-column-two-thirds">
+    <div class="govuk-width-container">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
           <div class="nhsuk-hero-content">
             <h1 class="nhsuk-u-margin-bottom-3">We’re here for you</h1>
             <p class="nhsuk-body-l nhsuk-u-margin-bottom-0">Helping you take control of your health and wellbeing.</p>

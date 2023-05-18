@@ -19,7 +19,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```html
 <header class="nhsuk-header" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo">
       <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -61,7 +61,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
     </div>
   </div>
   <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-    <div class="nhsuk-width-container">
+    <div class="govuk-width-container">
       <p class="nhsuk-header__navigation-title">
         <span id="label-navigation">Menu</span>
         <button class="nhsuk-header__navigation-close" id="close-menu">
@@ -168,7 +168,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```html
 <header class="nhsuk-header" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo">
       <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -184,7 +184,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
     </div>
   </div>
   <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-    <div class="nhsuk-width-container">
+    <div class="govuk-width-container">
       <p class="nhsuk-header__navigation-title">
         <span id="label-navigation">Menu</span>
         <button class="nhsuk-header__navigation-close" id="close-menu">
@@ -291,7 +291,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```html
 <header class="nhsuk-header" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo">
       <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -352,7 +352,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```HTML
 <header class="nhsuk-header" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo nhsuk-header__logo--only">
       <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -387,7 +387,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```HTML
 <header class="nhsuk-header nhsuk-header--transactional" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo nhsuk-header__logo--only">
       <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -423,7 +423,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```HTML
 <header class="nhsuk-header nhsuk-header--transactional" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo nhsuk-header__logo--only">
       <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -463,7 +463,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```HTML
 <header class="nhsuk-header nhsuk-header--organisation" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo">
       <a class="nhsuk-header__link" href="/" aria-label="Anytown Anyplace Anywhere NHS Foundation Trust homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -507,7 +507,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
     </div>
   </div>
   <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-    <div class="nhsuk-width-container">
+    <div class="govuk-width-container">
       <p class="nhsuk-header__navigation-title">
         <span id="label-navigation">Menu</span>
         <button class="nhsuk-header__navigation-close" id="close-menu">
@@ -617,7 +617,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```html
 <header class="nhsuk-header nhsuk-header--organisation nhsuk-header--white" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo">
       <a class="nhsuk-header__link" href="/" aria-label="Anytown Anyplace Anywhere NHS Foundation Trust homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -661,7 +661,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
     </div>
   </div>
   <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-    <div class="nhsuk-width-container">
+    <div class="govuk-width-container">
       <p class="nhsuk-header__navigation-title">
         <span id="label-navigation">Menu</span>
         <button class="nhsuk-header__navigation-close" id="close-menu">
@@ -772,7 +772,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```html
 <header class="nhsuk-header nhsuk-header--organisation nhsuk-header--white nhsuk-header--white-nav" role="banner">
-  <div class="nhsuk-width-container nhsuk-header__container">
+  <div class="govuk-width-container nhsuk-header__container">
     <div class="nhsuk-header__logo">
       <a class="nhsuk-header__link" href="/" aria-label="Anytown Anyplace Anywhere NHS Foundation Trust homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
@@ -816,7 +816,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
     </div>
   </div>
   <nav class="nhsuk-header__navigation" id="header-navigation" role="navigation" aria-label="Primary navigation" aria-labelledby="label-navigation">
-    <div class="nhsuk-width-container">
+    <div class="govuk-width-container">
       <p class="nhsuk-header__navigation-title">
         <span id="label-navigation">Menu</span>
         <button class="nhsuk-header__navigation-close" id="close-menu">

@@ -110,7 +110,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 ```
 <h2>Halves</h2>
 
-<ul class="nhsuk-grid-row nhsuk-card-group">
+<ul class="govuk-grid-row nhsuk-card-group">
   <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable ">
       <div class="nhsuk-card__content">
@@ -163,8 +163,8 @@ Find out more about the card component and when to use it in the [NHS digital se
 
 <h2>Thirds</h2>
 
-<ul class="nhsuk-grid-row nhsuk-card-group">
-  <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+<ul class="govuk-grid-row nhsuk-card-group">
+  <li class="govuk-grid-column-one-third nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable ">
       <div class="nhsuk-card__content">
         <h2 class="nhsuk-card__heading nhsuk-heading-m">
@@ -176,7 +176,7 @@ Find out more about the card component and when to use it in the [NHS digital se
       </div>
     </div>
   </li>
-  <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+  <li class="govuk-grid-column-one-third nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable ">
       <div class="nhsuk-card__content">
         <h2 class="nhsuk-card__heading nhsuk-heading-m">
@@ -188,7 +188,7 @@ Find out more about the card component and when to use it in the [NHS digital se
       </div>
     </div>
   </li>
-  <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+  <li class="govuk-grid-column-one-third nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable ">
       <div class="nhsuk-card__content">
         <h2 class="nhsuk-card__heading nhsuk-heading-m">
@@ -204,7 +204,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 
 <h2>Quarters</h2>
 
-<ul class="nhsuk-grid-row nhsuk-card-group">
+<ul class="govuk-grid-row nhsuk-card-group">
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable">
       <div class="nhsuk-card__content">
@@ -247,7 +247,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 
 <h2>Halves</h2>
 
-<ul class="nhsuk-grid-row nhsuk-card-group">
+<ul class="govuk-grid-row nhsuk-card-group">
   <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
     {{ card({
       "href": "#",
@@ -288,8 +288,8 @@ Find out more about the card component and when to use it in the [NHS digital se
 
 <h2>Thirds</h2>
 
-<ul class="nhsuk-grid-row nhsuk-card-group">
-  <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+<ul class="govuk-grid-row nhsuk-card-group">
+  <li class="govuk-grid-column-one-third nhsuk-card-group__item">
     {{ card({
       "href": "#",
       "clickable": "true",
@@ -298,7 +298,7 @@ Find out more about the card component and when to use it in the [NHS digital se
       "description": "Practical advice to help you feel mentally and emotionally better"
     }) }}
   </li>
-  <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+  <li class="govuk-grid-column-one-third nhsuk-card-group__item">
     {{ card({
       "href": "#",
       "clickable": "true",
@@ -307,7 +307,7 @@ Find out more about the card component and when to use it in the [NHS digital se
       "description": "Check your BMI using our healthy weight calculator and find out if you're a healthy weight"
     }) }}
   </li>
-  <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+  <li class="govuk-grid-column-one-third nhsuk-card-group__item">
     {{ card({
       "href": "#",
       "clickable": "true",
@@ -320,7 +320,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 
 <h2>Quarters</h2>
 
-<ul class="nhsuk-grid-row nhsuk-card-group">
+<ul class="govuk-grid-row nhsuk-card-group">
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     {{ card({
       "clickable": "true",
