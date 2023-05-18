@@ -13,7 +13,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <fieldset class="nhsuk-fieldset" aria-describedby="example-hint">
     <legend class="nhsuk-fieldset__legend">
       Have you changed your name?
@@ -78,7 +78,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <fieldset class="nhsuk-fieldset" aria-describedby="example-hint">
     <legend class="nhsuk-fieldset__legend">
       Have you changed your name?
@@ -144,7 +144,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <fieldset class="nhsuk-fieldset" aria-describedby="example-disabled-hint">
     <legend class="nhsuk-fieldset__legend">
       Have you changed your name?
@@ -210,7 +210,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <fieldset class="nhsuk-fieldset">
     <legend class="nhsuk-fieldset__legend">
       How do you want to sign in?
@@ -282,7 +282,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <fieldset class="nhsuk-fieldset">
     <legend class="nhsuk-fieldset__legend">
       <h1 class="nhsuk-fieldset__heading">
@@ -355,7 +355,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <div class="nhsuk-radios">
     <div class="nhsuk-radios__item">
       <input class="nhsuk-radios__input" id="colours-1" name="colours" type="radio" value="red">
@@ -412,7 +412,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group nhsuk-form-group--error">
+<div class="govuk-form-group govuk-form-group--error">
   <fieldset class="nhsuk-fieldset app-fieldset--custom-modifier" aria-describedby="example-hint example-error" data-attribute="value" data-second-attribute="second-value">
     <legend class="nhsuk-fieldset__legend">
       Have you changed your name?
@@ -488,7 +488,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <fieldset class="nhsuk-fieldset" aria-describedby="contact-hint">
     <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
       <h1 class="nhsuk-fieldset__heading">
@@ -506,11 +506,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
         </label>
       </div>
       <div class="nhsuk-radios__conditional nhsuk-radios__conditional--hidden" id="conditional-contact-1">
-        <div class="nhsuk-form-group">
+        <div class="govuk-form-group">
           <label class="govuk-label" for="email">
             Email address
           </label>
-          <input class="nhsuk-input nhsuk-u-width-two-thirds" id="email" name="email" type="text">
+          <input class="govuk-input nhsuk-u-width-two-thirds" id="email" name="email" type="text">
         </div>
       </div>
       <div class="nhsuk-radios__item">
@@ -520,11 +520,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
         </label>
       </div>
       <div class="nhsuk-radios__conditional nhsuk-radios__conditional--hidden" id="conditional-contact-2">
-        <div class="nhsuk-form-group">
+        <div class="govuk-form-group">
           <label class="govuk-label" for="phone">
             Phone number
           </label>
-          <input class="nhsuk-input nhsuk-u-width-two-thirds" id="phone" name="phone" type="text">
+          <input class="govuk-input nhsuk-u-width-two-thirds" id="phone" name="phone" type="text">
         </div>
       </div>
       <div class="nhsuk-radios__item">
@@ -534,11 +534,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
         </label>
       </div>
       <div class="nhsuk-radios__conditional nhsuk-radios__conditional--hidden" id="conditional-contact-3">
-        <div class="nhsuk-form-group">
+        <div class="govuk-form-group">
           <label class="govuk-label" for="mobile">
             Mobile phone number
           </label>
-          <input class="nhsuk-input nhsuk-u-width-two-thirds" id="mobile" name="mobile" type="text">
+          <input class="govuk-input nhsuk-u-width-two-thirds" id="mobile" name="mobile" type="text">
         </div>
       </div>
     </div>

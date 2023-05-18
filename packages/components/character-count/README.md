@@ -14,7 +14,7 @@ Find out more about the character component and when to use it in the [NHS digit
 
 ```html
 <div class="nhsuk-character-count" data-module="nhsuk-character-count" data-maxlength="200">
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="more-detail">Can you provide more detail?</label>
     <div class="govuk-hint" id="more-detail-hint">
       Don&#39;t include personal or financial information, eg your National Insurance number or credit card details.
@@ -59,7 +59,7 @@ Find out more about the character component and when to use it in the [NHS digit
 
 ```html
 <div class="nhsuk-character-count" data-module="nhsuk-character-count" data-maxlength="200" data-threshold="75">
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="more-detail">Can you provide more detail?</label>
     <div class="govuk-hint" id="more-detail-hint">
       Don&#39;t include personal or financial information, eg your National Insurance number or credit card details.
@@ -105,7 +105,7 @@ Find out more about the character component and when to use it in the [NHS digit
 
 ```html
 <div class="nhsuk-character-count" data-module="nhsuk-character-count" data-maxwords="200">
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="more-detail">Can you provide more detail?</label>
     <div class="govuk-hint" id="more-detail-hint">
       Don&#39;t include personal or financial information, eg your National Insurance number or credit card details.

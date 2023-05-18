@@ -13,15 +13,15 @@
   {% set dateInputItems = [
     {
       name: "day",
-      classes: "nhsuk-input--width-2"
+      classes: "govuk-input--width-2"
     },
     {
       name: "month",
-      classes: "nhsuk-input--width-2"
+      classes: "govuk-input--width-2"
     },
     {
       name: "year",
-      classes: "nhsuk-input--width-4"
+      classes: "govuk-input--width-4"
     }
   ] %}
 {% endif %}
@@ -75,7 +75,7 @@
   </div>
 {%- endset -%}
 
-<div class="nhsuk-form-group {%- if params.errorMessage %} nhsuk-form-group--error{% endif %}  {%- if params.formGroup.classes %} {{ params.formGroup.classes }}{% endif %}">
+<div class="govuk-form-group {%- if params.errorMessage %} govuk-form-group--error{% endif %}  {%- if params.formGroup.classes %} {{ params.formGroup.classes }}{% endif %}">
 {% if params.fieldset %}
 {#- We override the fieldset's role to 'group' because otherwise JAWS does not
     announce the description for a fieldset comprised of text inputs, but

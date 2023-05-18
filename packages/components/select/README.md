@@ -13,7 +13,7 @@ Find out more about the select component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <label class="govuk-label" for="select-1">
     Label text goes here
   </label>
@@ -64,7 +64,7 @@ Find out more about the select component and when to use it in the [NHS digital 
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group nhsuk-form-group--error">
+<div class="govuk-form-group govuk-form-group--error">
   <label class="govuk-label" for="select-2">
   Label text goes here
   </label>

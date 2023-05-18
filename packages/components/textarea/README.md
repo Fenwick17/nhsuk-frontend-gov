@@ -13,7 +13,7 @@ Find out more about the textarea component and when to use it in the [NHS digita
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <label class="govuk-label" for="more-detail">
   Can you provide more detail?
   </label>
@@ -54,7 +54,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group">
+<div class="govuk-form-group">
   <label class="govuk-label" for="textarea-with-autocomplete-attribute">
   Full address
   </label>
@@ -86,7 +86,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 #### HTML markup
 
 ```html
-<div class="nhsuk-form-group nhsuk-form-group--error">
+<div class="govuk-form-group govuk-form-group--error">
   <label class="govuk-label" for="no-ni-reason">
     Why can&#39;t you provide a National Insurance number?
   </label>

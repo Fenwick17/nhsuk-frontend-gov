@@ -80,7 +80,7 @@ Find out more about the error summary component and when to use it in the [NHS d
   </div>
 </div>
 
-<div class="nhsuk-form-group nhsuk-form-group--error">
+<div class="govuk-form-group govuk-form-group--error">
   <label class="govuk-label" for="input-with-error-message">
     National Insurance number
   </label>
@@ -92,7 +92,7 @@ Find out more about the error summary component and when to use it in the [NHS d
     <span class="nhsuk-u-visually-hidden">Error:</span> Error message goes here
   </span>
   <input
-    class="nhsuk-input nhsuk-input--error"
+    class="govuk-input govuk-input--error"
     id="input-with-error-message"
     name="test-name-3"
     type="text"
@@ -166,7 +166,7 @@ Find out more about the error summary component and when to use it in the [NHS d
   </div>
 </div>
 
-<div class="nhsuk-form-group nhsuk-form-group--error">
+<div class="govuk-form-group govuk-form-group--error">
   <fieldset
     class="nhsuk-fieldset"
     aria-describedby="example-hint example-error"

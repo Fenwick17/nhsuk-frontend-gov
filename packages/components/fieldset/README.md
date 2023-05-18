@@ -79,29 +79,29 @@ Find out more about the fieldset component and when to use it in the [NHS digita
       What is your address?
     </h1>
   </legend>
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="input-address1">
       Address line 1
     </label>
-    <input class="nhsuk-input" id="input-address1" name="address1" type="text">
+    <input class="govuk-input" id="input-address1" name="address1" type="text">
   </div>
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="input-address2">
       Address line 2
     </label>
-    <input class="nhsuk-input" id="input-address2" name="address2" type="text">
+    <input class="govuk-input" id="input-address2" name="address2" type="text">
   </div>
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="input-town-city">
       Town or city
     </label>
-    <input class="nhsuk-input" id="input-town-city" name="town" type="text">
+    <input class="govuk-input" id="input-town-city" name="town" type="text">
   </div>
-  <div class="nhsuk-form-group">
+  <div class="govuk-form-group">
     <label class="govuk-label" for="input-county">
       County
     </label>
-    <input class="nhsuk-input" id="input-county" name="county" type="text">
+    <input class="govuk-input" id="input-county" name="county" type="text">
   </div>
 </fieldset>
 
