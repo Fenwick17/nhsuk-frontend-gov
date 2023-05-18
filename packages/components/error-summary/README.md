@@ -168,10 +168,10 @@ Find out more about the error summary component and when to use it in the [NHS d
 
 <div class="govuk-form-group govuk-form-group--error">
   <fieldset
-    class="nhsuk-fieldset"
+    class="govuk-fieldset"
     aria-describedby="example-hint example-error"
   >
-    <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
       Have you changed your name?
     </legend>
 
@@ -185,29 +185,29 @@ Find out more about the error summary component and when to use it in the [NHS d
       option
     </span>
 
-    <div class="nhsuk-radios">
-      <div class="nhsuk-radios__item">
+    <div class="govuk-radios">
+      <div class="govuk-radios__item">
         <input
-          class="nhsuk-radios__input"
+          class="govuk-radios__input"
           id="example-1"
           name="radios-example"
           type="radio"
           value="yes"
         />
-        <label class="govuk-label nhsuk-radios__label" for="example-1">
+        <label class="govuk-label govuk-radios__label" for="example-1">
           Yes
         </label>
       </div>
 
-      <div class="nhsuk-radios__item">
+      <div class="govuk-radios__item">
         <input
-          class="nhsuk-radios__input"
+          class="govuk-radios__input"
           id="example-2"
           name="radios-example"
           type="radio"
           value="no"
         />
-        <label class="govuk-label nhsuk-radios__label" for="example-2">
+        <label class="govuk-label govuk-radios__label" for="example-2">
           No
         </label>
       </div>
@@ -242,7 +242,7 @@ Find out more about the error summary component and when to use it in the [NHS d
   "fieldset": {
     "legend": {
       "text": "Have you changed your name?",
-      "classes": "nhsuk-fieldset__legend--m"
+      "classes": "govuk-fieldset__legend--m"
     }
   },
   "hint": {

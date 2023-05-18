@@ -16,8 +16,8 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset" aria-describedby="dob-hint" role="group">
-    <legend class="nhsuk-fieldset__legend">
+  <fieldset class="govuk-fieldset" aria-describedby="dob-hint" role="group">
+    <legend class="govuk-fieldset__legend">
       What is your date of birth?
     </legend>
     <div class="govuk-hint" id="dob-hint">
@@ -100,8 +100,8 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset" aria-describedby="dob-with-autocomplete-attribute-hint" role="group">
-    <legend class="nhsuk-fieldset__legend">
+  <fieldset class="govuk-fieldset" aria-describedby="dob-with-autocomplete-attribute-hint" role="group">
+    <legend class="govuk-fieldset__legend">
       What is your date of birth?
     </legend>
     <div class="govuk-hint" id="dob-with-autocomplete-attribute-hint">
@@ -183,8 +183,8 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```html
 <div class="govuk-form-group govuk-form-group--error">
-  <fieldset class="nhsuk-fieldset" aria-describedby="dob-errors-hint dob-errors-error" role="group">
-    <legend class="nhsuk-fieldset__legend">
+  <fieldset class="govuk-fieldset" aria-describedby="dob-errors-hint dob-errors-error" role="group">
+    <legend class="govuk-fieldset__legend">
       What is your date of birth?
     </legend>
     <div class="govuk-hint" id="dob-errors-hint">
@@ -268,8 +268,8 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```html
 <div class="govuk-form-group govuk-form-group--error">
-  <fieldset class="nhsuk-fieldset" aria-describedby="dob-day-error-hint dob-day-error-error" role="group">
-    <legend class="nhsuk-fieldset__legend">
+  <fieldset class="govuk-fieldset" aria-describedby="dob-day-error-hint dob-day-error-error" role="group">
+    <legend class="govuk-fieldset__legend">
       What is your date of birth?
     </legend>
     <div class="govuk-hint" id="dob-day-error-hint">

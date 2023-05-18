@@ -14,8 +14,8 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset" aria-describedby="nationality-hint">
-    <legend class="nhsuk-fieldset__legend">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+    <legend class="govuk-fieldset__legend">
       What is your nationality?
     </legend>
     <div class="govuk-hint" id="nationality-hint">
@@ -88,9 +88,9 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset">
-    <legend class="nhsuk-fieldset__legend">
-      <h1 class="nhsuk-fieldset__heading">
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend">
+      <h1 class="govuk-fieldset__heading">
         How do you want to sign in?
       </h1>
     </legend>
@@ -221,9 +221,9 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset" aria-describedby="waste-hint">
-    <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-      <h1 class="nhsuk-fieldset__heading">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+      <h1 class="govuk-fieldset__heading">
         Which types of waste do you transport regularly?
       </h1>
     </legend>
@@ -264,7 +264,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
   "fieldset": {
     "legend": {
       "text": "Which types of waste do you transport regularly?",
-      "classes": "nhsuk-fieldset__legend--l",
+      "classes": "govuk-fieldset__legend--l",
       "isPageHeading": true
     }
   },
@@ -298,8 +298,8 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group govuk-form-group--error">
-  <fieldset class="nhsuk-fieldset" aria-describedby="waste-error">
-    <legend class="nhsuk-fieldset__legend">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-error">
+    <legend class="govuk-fieldset__legend">
       Which types of waste do you transport regularly?
     </legend>
     <span id="waste-error" class="govuk-error-message">
@@ -371,9 +371,9 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset" aria-describedby="contact-hint">
-    <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-      <h1 class="nhsuk-fieldset__heading">
+  <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+      <h1 class="govuk-fieldset__heading">
         How would you prefer to be contacted?
       </h1>
     </legend>
@@ -473,7 +473,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
   "fieldset": {
     "legend": {
       "text": "How would you prefer to be contacted?",
-      "classes": "nhsuk-fieldset__legend--l",
+      "classes": "govuk-fieldset__legend--l",
       "isPageHeading": "true"
     }
   },
@@ -516,9 +516,9 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ```html
 <div class="govuk-form-group">
-  <fieldset class="nhsuk-fieldset" aria-describedby="contact-hint">
-    <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-      <h1 class="nhsuk-fieldset__heading">
+  <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+      <h1 class="govuk-fieldset__heading">
         How would you prefer to be contacted?
       </h1>
     </legend>
@@ -621,7 +621,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
   "fieldset": {
     "legend": {
       "text": "How would you prefer to be contacted?",
-      "classes": "nhsuk-fieldset__legend--l",
+      "classes": "govuk-fieldset__legend--l",
       "isPageHeading": "true"
     }
   },

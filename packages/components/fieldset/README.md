@@ -13,8 +13,8 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 #### HTML markup
 
 ```html
-<fieldset class="nhsuk-fieldset">
-  <legend class="nhsuk-fieldset__legend">
+<fieldset class="govuk-fieldset">
+  <legend class="govuk-fieldset__legend">
     What is your address?
   </legend>
 </fieldset>
@@ -41,9 +41,9 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 #### HTML markup
 
 ```html
-<fieldset class="nhsuk-fieldset">
-  <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--xl">
-    <h1 class="nhsuk-fieldset__heading">
+<fieldset class="govuk-fieldset">
+  <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+    <h1 class="govuk-fieldset__heading">
       What is your address?
     </h1>
   </legend>
@@ -58,7 +58,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 {{ fieldset({
   "legend": {
     "text": "What is your address?",
-    "classes": "nhsuk-fieldset__legend--xl",
+    "classes": "govuk-fieldset__legend--xl",
     "isPageHeading": true
   }
 }) }}
@@ -73,9 +73,9 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 #### HTML markup
 
 ```html
-<fieldset class="nhsuk-fieldset">
-  <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--xl">
-    <h1 class="nhsuk-fieldset__heading">
+<fieldset class="govuk-fieldset">
+  <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+    <h1 class="govuk-fieldset__heading">
       What is your address?
     </h1>
   </legend>
@@ -118,7 +118,7 @@ To add input fields inside the fieldset, use the `call` block.
 {% call fieldset({
   legend: {
     text: "What is your address?",
-    "classes": "nhsuk-fieldset__legend--xl",
+    "classes": "govuk-fieldset__legend--xl",
     "isPageHeading": true
   }
 }) %}
