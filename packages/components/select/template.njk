@@ -36,9 +36,9 @@
     text: params.errorMessage.text
   }) | indent(2) | trim }}
 {%- endif %}
-  <select class="nhsuk-select
+  <select class="govuk-select
     {%- if params.classes %} {{ params.classes }}{% endif %}
-    {%- if params.errorMessage %} nhsuk-select--error{% endif %}" id="{{ params.id }}" name="{{ params.name }}"
+    {%- if params.errorMessage %} govuk-select--error{% endif %}" id="{{ params.id }}" name="{{ params.name }}"
     {%- if describedBy %} aria-describedby="{{ describedBy }}"{% endif %}
     {%- for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
   {%- for item in params.items %}

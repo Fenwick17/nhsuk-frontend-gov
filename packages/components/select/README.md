@@ -17,7 +17,7 @@ Find out more about the select component and when to use it in the [NHS digital 
   <label class="govuk-label" for="select-1">
     Label text goes here
   </label>
-  <select class="nhsuk-select" id="select-1" name="select-1">
+  <select class="govuk-select" id="select-1" name="select-1">
     <option value="1">NHS.UK frontend option 1</option>
     <option value="2" selected>NHS.UK frontend option 2</option>
     <option value="3" disabled>NHS.UK frontend option 3</option>
@@ -74,7 +74,7 @@ Find out more about the select component and when to use it in the [NHS digital 
   <span id="select-2-error" class="govuk-error-message">
   Error message goes here
   </span>
-  <select class="nhsuk-select nhsuk-select--error" id="select-2" name="select-2" aria-describedby="select-2-hint select-2-error">
+  <select class="govuk-select govuk-select--error" id="select-2" name="select-2" aria-describedby="select-2-hint select-2-error">
     <option value="1">NHS.UK frontend option 1</option>
     <option value="2">NHS.UK frontend option 2</option>
     <option value="3">NHS.UK frontend option 3</option>
