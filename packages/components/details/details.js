@@ -25,14 +25,14 @@ export default () => {
     element.setAttribute('nhsuk-polyfilled', 'true')
 
     // Give details element an ID if it doesn't already have one
-    if (!element.id) element.setAttribute('id', `nhsuk-details${index}`)
+    if (!element.id) element.setAttribute('id', `govuk-details${index}`)
 
     // Set content element and give it an ID if it doesn't already have one
-    const content = document.querySelector(`#${element.id} .nhsuk-details__text`)
-    if (!content.id) content.setAttribute('id', `nhsuk-details__text${index}`)
+    const content = document.querySelector(`#${element.id} .govuk-details__text`)
+    if (!content.id) content.setAttribute('id', `govuk-details__text${index}`)
 
     // Set summary element
-    const summary = document.querySelector(`#${element.id} .nhsuk-details__summary`)
+    const summary = document.querySelector(`#${element.id} .govuk-details__summary`)
 
     // Set initial summary aria attributes
     summary.setAttribute('role', 'button')

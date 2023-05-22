@@ -162,7 +162,7 @@ module.exports = {
       url: `${TEST_URL}/date-input/multiple-errors.html`,
     },
     {
-      clickSelector: '.nhsuk-details__summary',
+      clickSelector: '.govuk-details__summary',
       label: 'Details',
       url: `${TEST_URL}/details/index.html`,
     },
@@ -187,12 +187,12 @@ module.exports = {
       url: `${TEST_URL}/error-summary/linking-to-radios.html`,
     },
     {
-      clickSelector: '.nhsuk-details__summary',
+      clickSelector: '.govuk-details__summary',
       label: 'Expander',
       url: `${TEST_URL}/details/expander.html`,
     },
     {
-      clickSelector: '.nhsuk-details__summary',
+      clickSelector: '.govuk-details__summary',
       label: 'Expander group',
       url: `${TEST_URL}/details/expander-group.html`,
     },
