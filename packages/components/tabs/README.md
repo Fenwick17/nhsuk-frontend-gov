@@ -11,22 +11,22 @@ Find out more about the tabs component and when to use it in the [NHS digital se
 ### HTML markup
 
 ```html
-<div class="nhsuk-tabs" data-module="nhsuk-tabs">
-  <h2 class="nhsuk-tabs__title">Contents</h2>
+<div class="govuk-tabs" data-module="govuk-tabs">
+  <h2 class="govuk-tabs__title">Contents</h2>
 
-  <ul class="nhsuk-tabs__list">
-    <li class="nhsuk-tabs__list-item nhsuk-tabs__list-item--selected">
-      <a class="nhsuk-tabs__tab" href="#tab-one">Tab one</a>
+  <ul class="govuk-tabs__list">
+    <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+      <a class="govuk-tabs__tab" href="#tab-one">Tab one</a>
     </li>
-    <li class="nhsuk-tabs__list-item">
-      <a class="nhsuk-tabs__tab" href="#tab-two">Tab two</a>
+    <li class="govuk-tabs__list-item">
+      <a class="govuk-tabs__tab" href="#tab-two">Tab two</a>
     </li>
-    <li class="nhsuk-tabs__list-item">
-      <a class="nhsuk-tabs__tab" href="#tab-three">Tab three</a>
+    <li class="govuk-tabs__list-item">
+      <a class="govuk-tabs__tab" href="#tab-three">Tab three</a>
     </li>
   </ul>
 
-  <div class="nhsuk-tabs__panel" id="tab-one">
+  <div class="govuk-tabs__panel" id="tab-one">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -35,7 +35,7 @@ Find out more about the tabs component and when to use it in the [NHS digital se
     </p>
   </div>
 
-  <div class="nhsuk-tabs__panel nhsuk-tabs__panel--hidden" id="tab-two">
+  <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="tab-two">
     <p>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
       aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
@@ -44,7 +44,7 @@ Find out more about the tabs component and when to use it in the [NHS digital se
     </p>
   </div>
 
-  <div class="nhsuk-tabs__panel nhsuk-tabs__panel--hidden" id="tab-three">
+  <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="tab-three">
     <p>
       Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
       eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis

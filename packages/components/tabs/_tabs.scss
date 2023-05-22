@@ -100,7 +100,7 @@
       }
     }
 
-    .nhsuk-tabs__panel {
+    .govuk-tabs__panel {
       @include nhsuk-responsive-margin(0, "bottom");
       background-color: $color_nhsuk-white;
       border: 1px solid $nhsuk-border-color;
