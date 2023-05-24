@@ -76,7 +76,7 @@
   width: 100%;
 
   thead {
-    @include govuk-visually-hidden; /* [1] */
+    @include govuk-visually-hidden($important: false); /* [1] */
 
     @include mq($from: desktop) {
       @include visually-shown(table-header-group); /* [2] */
