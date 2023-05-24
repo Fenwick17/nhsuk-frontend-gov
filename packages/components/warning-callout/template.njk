@@ -4,10 +4,10 @@
 {%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
   <h{{ headingLevel }} class="nhsuk-warning-callout__label">
     {%- if "Important" in params.heading or "important" in params.heading %}
-    {{ params.heading | safe }}<span class="nhsuk-u-visually-hidden">:</span>
+    {{ params.heading | safe }}<span class="govuk-visually-hidden">:</span>
     {%- else %}
     <span role="text">
-      <span class="nhsuk-u-visually-hidden">Important: </span>
+      <span class="govuk-visually-hidden">Important: </span>
       {{ params.heading | safe }}
     </span>
     {%- endif %}

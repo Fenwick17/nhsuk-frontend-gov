@@ -130,7 +130,7 @@ Core also is the home of powerful `sass` features such as variables, mixins, fun
 Automatically clear an elements child elements.
 
 ```html
-<div class="nhsuk-u-clear"></div>
+<div class="govuk-clearfix"></div>
 ```
 
 ### Bold font weight
@@ -149,7 +149,7 @@ nhsuk-u-[grid-size]
 ```
 
 ```html
-<div class="nhsuk-grid-column-one-half nhsuk-u-one-half"></div>
+<div class="nhsuk-grid-column-one-half govuk-!-width-one-half"></div>
 ```
 
 ### Normal font weight
@@ -217,7 +217,7 @@ Prevent long anchor links from line breaking on smaller screens.
 Hide elements visually but keep it in the DOM, useful for screen readers.
 
 ```html
-<span class="nhsuk-u-visually-hidden"></span>
+<span class="govuk-visually-hidden"></span>
 ```
 
 ## Typography

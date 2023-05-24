@@ -2,7 +2,7 @@
   <a href="{{ action.href }}">
     {{ action.html | safe if action.html else action.text }}
     {%- if action.visuallyHiddenText -%}
-      <span class="nhsuk-u-visually-hidden"> {{ action.visuallyHiddenText }}</span>
+      <span class="govuk-visually-hidden"> {{ action.visuallyHiddenText }}</span>
     {% endif -%}
   </a>
 {% endmacro -%}

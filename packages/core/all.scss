@@ -28,18 +28,17 @@
 @import "styles/icons";
 @import "styles/lists";
 @import "styles/section-break";
-@import "styles/typography";
+@import "styles/typography"; // TODO: Look into this
 
 // Utilities
-@import "utilities/clearfix";
-@import "utilities/display";
-@import "utilities/float";
-@import "utilities/grid-widths";
-@import "utilities/link-nowrap";
-@import "utilities/list-border";
-@import "utilities/reading-width";
+// @import "utilities/clearfix"; Replaced by govuk override
+// @import "utilities/display"; Replaced by govuk override
+@import "utilities/float"; // TODO: Do we need this?
+// @import "utilities/grid-widths"; Replaced by govuk override
+@import "utilities/link-nowrap"; // TODO: Do we need this?
+@import "utilities/list-border"; // TODO: Do we need this?
+@import "utilities/reading-width"; // TODO: Do we need this?
 @import "utilities/spacing";
-@import "utilities/text-align";
+// @import "utilities/text-align"; Changed to govuk override
 @import "utilities/typography";
-@import "utilities/visually-hidden";
 @import "utilities/widths";

@@ -20,7 +20,7 @@
         <a class="nhsuk-card__link" href="{{ params.href }}">{{ params.heading | safe }}</a>
       {%- else %}
       {%- if params.type %}
-      <span role="text"><span class="nhsuk-u-visually-hidden">
+      <span role="text"><span class="govuk-visually-hidden">
       {%- if params.type === 'non-urgent' %}Non-urgent advice:
       {%- elseif params.type === 'urgent' %}Urgent advice:
       {%- elseif params.type === 'emergency' %}Immediate action required:

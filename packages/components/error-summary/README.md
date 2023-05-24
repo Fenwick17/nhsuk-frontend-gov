@@ -89,7 +89,7 @@ Find out more about the error summary component and when to use it in the [NHS d
     label into view.
   </div>
   <span class="govuk-error-message" id="input-with-error-message-error">
-    <span class="nhsuk-u-visually-hidden">Error:</span> Error message goes here
+    <span class="govuk-visually-hidden">Error:</span> Error message goes here
   </span>
   <input
     class="govuk-input govuk-input--error"
@@ -181,7 +181,7 @@ Find out more about the error summary component and when to use it in the [NHS d
     </div>
 
     <span class="govuk-error-message" id="example-error">
-      <span class="nhsuk-u-visually-hidden">Error:</span> Please select an
+      <span class="govuk-visually-hidden">Error:</span> Please select an
       option
     </span>
 

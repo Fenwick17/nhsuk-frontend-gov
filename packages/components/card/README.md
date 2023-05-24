@@ -208,7 +208,7 @@ Find out more about the card component and when to use it in the [NHS digital se
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable">
       <div class="nhsuk-card__content">
-        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">91 <span class="nhsuk-u-visually-hidden">Applicants</span></p>
+        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">91 <span class="govuk-visually-hidden">Applicants</span></p>
         <a href="#" class="nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state" style="display:block">Applicants</a>
       </div>
     </div>
@@ -216,7 +216,7 @@ Find out more about the card component and when to use it in the [NHS digital se
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable">
       <div class="nhsuk-card__content">
-        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">23 <span class="nhsuk-u-visually-hidden">Jobs</span></p>
+        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">23 <span class="govuk-visually-hidden">Jobs</span></p>
         <a href="#" class="nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state">Jobs</a>
       </div>
     </div>
@@ -224,7 +224,7 @@ Find out more about the card component and when to use it in the [NHS digital se
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable">
       <div class="nhsuk-card__content">
-        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">8 <span class="nhsuk-u-visually-hidden">Services</span></p>
+        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">8 <span class="govuk-visually-hidden">Services</span></p>
         <a href="#" class="nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state">Services</a>
       </div>
     </div>
@@ -232,7 +232,7 @@ Find out more about the card component and when to use it in the [NHS digital se
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     <div class="nhsuk-card nhsuk-card--clickable">
       <div class="nhsuk-card__content">
-        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">33 <span class="nhsuk-u-visually-hidden">Messages</span></p>
+        <p class="nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1">33 <span class="govuk-visually-hidden">Messages</span></p>
         <a href="#" class="nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state">Messages</a>
       </div>
     </div>
@@ -324,25 +324,25 @@ Find out more about the card component and when to use it in the [NHS digital se
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     {{ card({
       "clickable": "true",
-      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">91 <span class=\"nhsuk-u-visually-hidden\">Applicants</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Applicants</a>"
+      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">91 <span class=\"govuk-visually-hidden\">Applicants</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Applicants</a>"
     }) }}
   </li>
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     {{ card({
       "clickable": "true",
-      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">23 <span class=\"nhsuk-u-visually-hidden\">Jobs</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Jobs</a>"
+      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">23 <span class=\"govuk-visually-hidden\">Jobs</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Jobs</a>"
     }) }}
   </li>
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     {{ card({
       "clickable": "true",
-      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">8 <span class=\"nhsuk-u-visually-hidden\">Services</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Services</a>"
+      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">8 <span class=\"govuk-visually-hidden\">Services</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Services</a>"
     }) }}
   </li>
   <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
     {{ card({
       "clickable": "true",
-      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">33 <span class=\"nhsuk-u-visually-hidden\">Messages</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Messages</a>"
+      "headingHtml": "<p class=\"nhsuk-heading-xl nhsuk-u-font-size-64 nhsuk-u-margin-bottom-1\">33 <span class=\"govuk-visually-hidden\">Messages</span></p><a href=\"#\" class=\"nhsuk-card__link nhsuk-u-font-weight-normal nhsuk-u-font-size-19 nhsuk-link--no-visited-state\">Messages</a>"
     }) }}
   </li>
 </ul>
@@ -389,7 +389,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 <div class="nhsuk-card nhsuk-card--care nhsuk-card--care--non-urgent">
   <div class="nhsuk-card--care__heading-container">
     <h3 class="nhsuk-card--care__heading">
-      <span role="text"><span class="nhsuk-u-visually-hidden">Non-urgent advice: </span>Speak to a GP if:</span>
+      <span role="text"><span class="govuk-visually-hidden">Non-urgent advice: </span>Speak to a GP if:</span>
     </h3>
     <span class="nhsuk-card--care__arrow" aria-hidden="true"></span>
   </div>
@@ -438,7 +438,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 <div class="nhsuk-card nhsuk-card--care nhsuk-card--care--urgent">
   <div class="nhsuk-card--care__heading-container">
     <h3 class="nhsuk-card--care__heading">
-      <span role="text"><span class="nhsuk-u-visually-hidden">Urgent advice: </span>Ask for an urgent GP appointment if:</span>
+      <span role="text"><span class="govuk-visually-hidden">Urgent advice: </span>Ask for an urgent GP appointment if:</span>
     </h3>
     <span class="nhsuk-card--care__arrow" aria-hidden="true"></span>
   </div>
@@ -487,7 +487,7 @@ Find out more about the card component and when to use it in the [NHS digital se
 <div class="nhsuk-card nhsuk-card--care nhsuk-card--care--emergency">
   <div class="nhsuk-card--care__heading-container">
     <h3 class="nhsuk-card--care__heading">
-      <span role="text"><span class="nhsuk-u-visually-hidden">Immediate action required: </span>Call 999 if you have sudden chest pain that:</span>
+      <span role="text"><span class="govuk-visually-hidden">Immediate action required: </span>Call 999 if you have sudden chest pain that:</span>
     </h3>
     <span class="nhsuk-card--care__arrow" aria-hidden="true"></span>
   </div>

@@ -4,6 +4,6 @@
 {%- if params.classes %} {{ params.classes }}{% endif %}"
 {%- if params.id %} id="{{ params.id }}"{% endif %}
 {%- for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
-  {% if visuallyHiddenText %}<span class="nhsuk-u-visually-hidden">{{ visuallyHiddenText }}:</span> {% endif -%}
+  {% if visuallyHiddenText %}<span class="govuk-visually-hidden">{{ visuallyHiddenText }}:</span> {% endif -%}
   {{ params.html | safe if params.html else params.text }}
 </span>

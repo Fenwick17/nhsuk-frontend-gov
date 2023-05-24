@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .nhsuk-footer {
-  @include clearfix();
+  @include govuk-clearfix();
   @include print-hide();
   @include nhsuk-responsive-padding(5, bottom);
   @include nhsuk-responsive-padding(5, top);

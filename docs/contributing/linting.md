@@ -161,7 +161,7 @@ Bad:
 Good:
 
 ```
-@include clearfix;
+@include govuk-clearfix;
 ```
 
 ### Allow max 3-rule property shorthand if possible

@@ -3,21 +3,6 @@
 // ==========================================================================
 
 //
-// Clearfix mixin
-//
-// Usage: @include clearfix();
-// See utilities/clearfix
-//
-
-@mixin clearfix() {
-  &:after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-//
 // Reading width mixin, add a maximum width
 // to large pieces of content
 //
@@ -27,28 +12,6 @@
 
 @mixin reading-width() {
   max-width: 44em;
-}
-
-//
-// Visually hidden mixin, used for hiding
-// content visually but keeping it in the DOM
-//
-// Usage: @include visually-hidden();
-// See utilities/visually-hidden
-//
-
-@mixin visually-hidden() {
-  border: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }
 
 //
