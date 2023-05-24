@@ -9,19 +9,17 @@
 @import "tools/all";
 
 // Generic
-@import "generic/box-sizing";
+@import "generic/box-sizing"; // TODO: Gov don't use this anymore
 @import "generic/font-face";
 
 // Elements
 @import "elements/forms"; // TODO: Explore this after fonts are fixed
 @import "elements/links";
 @import "elements/page";
-@import "elements/table";
 
 // Styles
 @import "styles/icons";
 @import "styles/lists";
-@import "styles/section-break";
 @import "styles/typography"; // TODO: Look into this
 
 // Utilities
@@ -35,4 +33,4 @@
 @import "utilities/spacing";
 // @import "utilities/text-align"; Changed to govuk override
 @import "utilities/typography";
-@import "utilities/widths";
+// @import "utilities/widths"; Changed to govuk override

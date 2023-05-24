@@ -138,7 +138,6 @@ $expander-border-hover-color: $color_nhsuk-grey-3;
 
 .nhsuk-expander-group {
   /* [4] */
-
   > .govuk-details {
     @include nhsuk-responsive-margin(2, "bottom");
   }

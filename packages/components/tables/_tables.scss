@@ -83,8 +83,8 @@
     }
   }
 
-  .nhsuk-table__body {
-    .nhsuk-table-responsive__heading {
+  .govuk-table__body {
+    .govuk-table-responsive__heading {
       font-weight: $nhsuk-font-bold;
       padding-right: nhsuk-spacing(3);
       text-align: left; /* [8] */
@@ -94,7 +94,7 @@
       }
     }
 
-    .nhsuk-table__row {
+    .govuk-table__row {
       display: block; /* [3] */
       margin-bottom: nhsuk-spacing(4);
 
@@ -146,7 +146,7 @@
  * Right aligns table cells for numeric tables.
  */
 
-.nhsuk-table__header--numeric,
-.nhsuk-table__cell--numeric {
-  text-align: right;
-}
+// .nhsuk-table__header--numeric,
+// .nhsuk-table__cell--numeric {
+//   text-align: right;
+// }
