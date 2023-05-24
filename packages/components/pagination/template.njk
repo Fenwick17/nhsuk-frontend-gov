@@ -1,7 +1,7 @@
 <nav class="nhsuk-pagination
 {%- if params.classes %} {{ params.classes }}{% endif %}" role="navigation" aria-label="Pagination"
 {%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
-  <ul class="nhsuk-list nhsuk-pagination__list">
+  <ul class="govuk-list nhsuk-pagination__list">
   {%- if params.previousUrl and params.previousPage %}
     <li class="nhsuk-pagination-item--previous">
       <a class="nhsuk-pagination__link nhsuk-pagination__link--prev" href="{{ params.previousUrl }}">

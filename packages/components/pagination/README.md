@@ -14,7 +14,7 @@ Find out more about the pagination component and when to use it in the [NHS digi
 
 ```html
 <nav class="nhsuk-pagination" role="navigation" aria-label="Pagination">
-  <ul class="nhsuk-list nhsuk-pagination__list">
+  <ul class="govuk-list nhsuk-pagination__list">
     <li class="nhsuk-pagination-item--previous">
       <a class="nhsuk-pagination__link nhsuk-pagination__link--prev" href="/section/treatments">
         <span class="nhsuk-pagination__title">Previous</span>
@@ -60,7 +60,7 @@ Find out more about the pagination component and when to use it in the [NHS digi
 
 ```html
 <nav class="nhsuk-pagination" role="navigation" aria-label="Pagination">
-  <ul class="nhsuk-list nhsuk-pagination__list">
+  <ul class="govuk-list nhsuk-pagination__list">
     <li class="nhsuk-pagination-item--next">
       <a class="nhsuk-pagination__link nhsuk-pagination__link--next" href="/section/symptoms">
         <span class="nhsuk-pagination__title">Next</span>
@@ -95,7 +95,7 @@ Find out more about the pagination component and when to use it in the [NHS digi
 
 ```html
 <nav class="nhsuk-pagination" role="navigation" aria-label="Pagination">
-  <ul class="nhsuk-list nhsuk-pagination__list">
+  <ul class="govuk-list nhsuk-pagination__list">
     <li class="nhsuk-pagination-item--previous">
       <a class="nhsuk-pagination__link nhsuk-pagination__link--prev" href="/section/treatments">
         <span class="nhsuk-pagination__title">Previous</span>

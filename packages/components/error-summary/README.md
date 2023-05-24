@@ -12,17 +12,17 @@ Find out more about the error summary component and when to use it in the [NHS d
 
 ```html
 <div
-  class="nhsuk-error-summary"
+  class="govuk-error-summary"
   aria-labelledby="error-summary-title"
   role="alert"
   tabindex="-1"
 >
-  <h2 class="nhsuk-error-summary__title" id="error-summary-title">
+  <h2 class="govuk-error-summary__title" id="error-summary-title">
     There is a problem
   </h2>
-  <div class="nhsuk-error-summary__body">
+  <div class="govuk-error-summary__body">
     <p>Describe the errors and how to correct them</p>
-    <ul class="nhsuk-list nhsuk-error-summary__list">
+    <ul class="govuk-list govuk-error-summary__list">
       <li>
         <a href="#example-error-1">Date of birth must be in the past</a>
       </li>
@@ -56,21 +56,21 @@ Find out more about the error summary component and when to use it in the [NHS d
 
 ```html
 <div
-  class="nhsuk-error-summary"
+  class="govuk-error-summary"
   aria-labelledby="error-summary-title"
   role="alert"
   tabindex="-1"
 >
-  <h2 class="nhsuk-error-summary__title" id="error-summary-title">
+  <h2 class="govuk-error-summary__title" id="error-summary-title">
     There is a problem
   </h2>
-  <div class="nhsuk-error-summary__body">
+  <div class="govuk-error-summary__body">
     <p>
       Optional description of the errors and how to correct them.<br />Note that
       the error summary should receive focus on page load using the JavaScript
       that comes with this component.
     </p>
-    <ul class="nhsuk-list nhsuk-error-summary__list">
+    <ul class="govuk-list govuk-error-summary__list">
       <li>
         <a href="#input-with-error-message"
           >Link to input error with explanation</a
@@ -141,21 +141,21 @@ Find out more about the error summary component and when to use it in the [NHS d
 
 ```html
 <div
-  class="nhsuk-error-summary"
+  class="govuk-error-summary"
   aria-labelledby="error-summary-title"
   role="alert"
   tabindex="-1"
 >
-  <h2 class="nhsuk-error-summary__title" id="error-summary-title">
+  <h2 class="govuk-error-summary__title" id="error-summary-title">
     There is a problem
   </h2>
-  <div class="nhsuk-error-summary__body">
+  <div class="govuk-error-summary__body">
     <p>
       Optional description of the errors and how to correct them.<br />Note that
       the error summary should receive focus on page load using the JavaScript
       that comes with this component.
     </p>
-    <ul class="nhsuk-list nhsuk-error-summary__list">
+    <ul class="govuk-list govuk-error-summary__list">
       <li>
         <a href="#example-1"
           >Link to radio error with explanation (Note how it links to the first

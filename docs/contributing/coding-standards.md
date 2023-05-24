@@ -181,11 +181,11 @@ other components.
 
 Keep all of the variants of a component in the same place.
 
-`.nhsuk-error-summary` modifies the `.nhsuk-list` component.
+`.govuk-error-summary` modifies the `.govuk-list` component.
 
 Component modifiers use an extra class, scoped to the component:
 
-`.nhsuk-error-summary__list`
+`.govuk-error-summary__list`
 
 This class is part of the component, rather than a parent of a component.
 
