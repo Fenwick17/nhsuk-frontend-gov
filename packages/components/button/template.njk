@@ -14,7 +14,7 @@
 {% set commonAttributes %} class="nhsuk-button
   {%- if params.classes %} {{ params.classes }}{% endif %}
   {%- if params.disabled %} nhsuk-button--disabled{% endif %}"
-  data-module="nhsuk-button"
+  data-module="govuk-button"
   {% if params.preventDoubleClick %} data-prevent-double-click="true"{% endif %}
   {%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}
 {%- endset -%}
