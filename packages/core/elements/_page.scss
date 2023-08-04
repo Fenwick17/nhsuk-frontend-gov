@@ -24,6 +24,7 @@ html {
   }
 }
 
+// TODO: Change font override to use sass-api https://frontend.design-system.service.gov.uk/sass-api-reference/
 * {
   font-family: $nhsuk-font, $nhsuk-font-fallback;
 }
