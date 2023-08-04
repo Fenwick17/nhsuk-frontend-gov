@@ -59,7 +59,7 @@ describe('Character count', () => {
 
       it('hides the fallback hint', async () => {
         const messageClasses = await page.$eval('.nhsuk-character-count__message', (el) => el.className)
-        expect(messageClasses).toContain('nhsuk-u-visually-hidden')
+        expect(messageClasses).toContain('govuk-visually-hidden')
       })
     })
 

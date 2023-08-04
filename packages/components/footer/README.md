@@ -16,7 +16,7 @@ Find out more about the footer component and when to use it in the [NHS digital 
 <footer role="contentinfo">
   <div class="nhsuk-footer" id="nhsuk-footer">
     <div class="govuk-width-container">
-      <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+      <h2 class="govuk-visually-hidden">Support links</h2>
       <ul class="nhsuk-footer__list">
         <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="#">Accessibility statement</a></li>
         <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="#">Contact us</a></li>

@@ -34,12 +34,12 @@
  */
 
 .nhsuk-header {
-  @include clearfix();
+  @include govuk-clearfix();
   background-color: $color_nhsuk-blue;
 }
 
 .nhsuk-header__container {
-  @include clearfix();
+  @include govuk-clearfix();
   padding: 20px 0;
 
   @include mq($until: tablet) {
@@ -123,7 +123,7 @@
 }
 
 .nhsuk-header__content {
-  @include clearfix();
+  @include govuk-clearfix();
   @include print-hide();
 
   position: relative;
@@ -142,7 +142,7 @@
 }
 
 .nhsuk-header__search {
-  @include clearfix();
+  @include govuk-clearfix();
 
   position: relative;
   text-align: right;

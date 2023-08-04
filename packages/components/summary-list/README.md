@@ -20,7 +20,7 @@
     <dd class="govuk-summary-list__actions">
       <a href="#">
         Change
-        <span class="nhsuk-u-visually-hidden"> name</span>
+        <span class="govuk-visually-hidden"> name</span>
       </a>
     </dd>
   </div>
@@ -34,7 +34,7 @@
     <dd class="govuk-summary-list__actions">
       <a href="#">
         Change
-        <span class="nhsuk-u-visually-hidden"> date of birth</span>
+        <span class="govuk-visually-hidden"> date of birth</span>
       </a>
     </dd>
   </div>
@@ -50,7 +50,7 @@
     <dd class="govuk-summary-list__actions">
       <a href="#">
         Change
-        <span class="nhsuk-u-visually-hidden"> contact information</span>
+        <span class="govuk-visually-hidden"> contact information</span>
       </a>
     </dd>
   </div>
@@ -65,7 +65,7 @@
     <dd class="govuk-summary-list__actions">
       <a href="#">
         Change
-        <span class="nhsuk-u-visually-hidden"> contact details</span>
+        <span class="govuk-visually-hidden"> contact details</span>
       </a>
     </dd>
   </div>
