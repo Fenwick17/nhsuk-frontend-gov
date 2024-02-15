@@ -1,6 +1,6 @@
 {% set html_style = 'background-color: #f0f4f5;' %}
 {% set title = 'Character Count - max characters' %}
-{% from 'components/character-count/macro.njk' import characterCount %}
+{% from 'components/character-count/macro.njk' import govukCharacterCount %}
 {% extends 'layout.njk' %}
 
 {% block body %}
@@ -10,15 +10,17 @@
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
-          {{ characterCount({
-            "name": "more-detail",
-            "id": "more-detail",
-            "maxlength": 10,
-            "label": {
-              "text": "Can you provide more detail?"
+          {{ govukCharacterCount({
+            name: "withHint",
+            id: "with-hint",
+            maxlength: 200,
+            label: {
+              text: "Can you provide more detail?",
+              classes: "govuk-label--l",
+              isPageHeading: true
             },
-            "hint": {
-              "text": "Don't include personal or financial information, eg your National Insurance number or credit card details."
+            hint: {
+              text: "Do not include personal or financial information like your National Insurance number or credit card details."
             }
           }) }}
         </div>
