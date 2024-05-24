@@ -3,8 +3,8 @@
 {% from "../label/macro.njk" import label %}
 
 {#- a record of other elements that we need to associate with the input using
-   aria-describedby – for example hints or error messages -#}
-{% set describedBy = "" %}
+  aria-describedby – for example hints or error messages -#}
+{% set describedBy = params.describedBy if params.describedBy else "" %}
 <div class="govuk-form-group {%- if params.errorMessage %} govuk-form-group--error{% endif %} {%- if params.formGroup.classes %} {{ params.formGroup.classes }}{% endif %}">
   {{ label({
     html: params.label.html,
@@ -13,33 +13,40 @@
     isPageHeading: params.label.isPageHeading,
     attributes: params.label.attributes,
     for: params.id
-  }) | indent(2) | trim }}
-{%- if params.hint %}
-  {%- set hintId = params.id + '-hint' %}
-  {%- set describedBy = describedBy + ' ' + hintId if describedBy else hintId %}
+  }) | trim | indent(2) }}
+{% if params.hint %}
+  {% set hintId = params.id + '-hint' %}
+  {% set describedBy = describedBy + ' ' + hintId if describedBy else hintId %}
   {{ hint({
     id: hintId,
     classes: params.hint.classes,
     attributes: params.hint.attributes,
     html: params.hint.html,
     text: params.hint.text
-  }) | indent(2) | trim }}
-{%- endif %}
-{%- if params.errorMessage %}
-  {%- set errorId = params.id + '-error' %}
-  {%- set describedBy = describedBy + ' ' + errorId if describedBy else errorId %}
+  }) | trim | indent(2) }}
+{% endif %}
+{% if params.errorMessage %}
+  {% set errorId = params.id + '-error' %}
+  {% set describedBy = describedBy + ' ' + errorId if describedBy else errorId %}
   {{ errorMessage({
     id: errorId,
     classes: params.errorMessage.classes,
+    attributes: params.errorMessage.attributes,
     html: params.errorMessage.html,
-    text: params.errorMessage.text
-  }) | indent(2) | trim }}
-{%- endif %}
-  <textarea class="govuk-textarea
-  {%- if params.errorMessage %} govuk-textarea--error{% endif %}
-  {%- if params.classes %} {{ params.classes }}{% endif %}" id="{{ params.id }}" name="{{ params.name }}" rows="
-  {%- if params.rows %} {{ params.rows }} {% else %}5{%endif %}"
+    text: params.errorMessage.text,
+    visuallyHiddenText: params.errorMessage.visuallyHiddenText
+  }) | trim | indent(2) }}
+{% endif %}
+{% if params.formGroup.beforeInput %}
+  {{ params.formGroup.beforeInput.html | safe | trim | indent(2) if params.formGroup.beforeInput.html else params.formGroup.beforeInput.text }}
+{% endif %}
+  <textarea class="govuk-textarea {%- if params.errorMessage %} govuk-textarea--error{% endif %} {%- if params.classes %} {{ params.classes }}{% endif %}" id="{{ params.id }}" name="{{ params.name }}" rows="{{ params.rows | default(5, true) }}"
+  {%- if (params.spellcheck === false) or (params.spellcheck === true) %} spellcheck="{{ params.spellcheck }}"{% endif %}
+  {%- if params.disabled %} disabled{% endif %}
   {%- if describedBy %} aria-describedby="{{ describedBy }}"{% endif %}
-  {%- if params.autocomplete %} autocomplete="{{ params.autocomplete}}"{% endif %}
-  {%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>{{ params.value }}</textarea>
+  {%- if params.autocomplete %} autocomplete="{{ params.autocomplete }}"{% endif %}>
+  {{ params.value }}</textarea>
+{% if params.formGroup.afterInput %}
+  {{ params.formGroup.afterInput.html | safe | trim | indent(2) if params.formGroup.afterInput.html else params.formGroup.afterInput.text }}
+{% endif %}
 </div>

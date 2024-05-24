@@ -34,9 +34,9 @@ Find out more about the character component and when to use it in the [NHS digit
 #### Nunjucks macro
 
 ```
-{% from 'components/character-count/macro.njk' import characterCount %}
+{% from 'components/character-count/macro.njk' import govukCharacterCount %}
 
-{{ characterCount({
+{{ govukCharacterCount({
   "name": "more-detail",
   "id": "more-detail",
   "maxlength": 200,
@@ -79,9 +79,9 @@ Find out more about the character component and when to use it in the [NHS digit
 #### Nunjucks macro
 
 ```
-{% from 'components/character-count/macro.njk' import characterCount %}
+{% from 'components/character-count/macro.njk' import govukCharacterCount %}
 
-{{ characterCount({
+{{ govukCharacterCount({
   "name": "more-detail",
   "id": "more-detail",
   "maxlength": 200,
@@ -125,9 +125,9 @@ Find out more about the character component and when to use it in the [NHS digit
 #### Nunjucks macro
 
 ```
-{% from 'components/character-count/macro.njk' import characterCount %}
+{% from 'components/character-count/macro.njk' import govukCharacterCount %}
 
-{{ characterCount({
+{{ govukCharacterCount({
   "name": "more-detail",
   "id": "more-detail",
   "maxwords": 200,
